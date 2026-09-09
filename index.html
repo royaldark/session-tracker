@@ -10,8 +10,32 @@
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
     <title>Stifinner</title>
-    <script type="module" crossorigin src="/session-tracker/assets/index-CpleXdk7.js"></script>
-    <link rel="stylesheet" crossorigin href="/session-tracker/assets/index-DI6ElAPs.css">
+    <!--
+      Runs BEFORE first paint, which is the whole point: the bundle cannot do
+      this, because by the time it loads the page has already painted white
+      and you get a flash on the way to dark. At a dim table that is worse
+      than having no dark theme.
+
+      It repeats the storage key and the media query from src/lib/theme.ts
+      by hand — it has no module system to import them with. Tests assert
+      the two spellings match, so the copies cannot drift in silence.
+    -->
+    <script>
+      try {
+        var choice = localStorage.getItem("stifinner:theme");
+        if (
+          choice === "dark" ||
+          ((choice === null || choice === "system") &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (e) {
+        /* Storage blocked. Light is the safe default; the app corrects it. */
+      }
+    </script>
+    <script type="module" crossorigin src="/session-tracker/assets/index-CyviB4kc.js"></script>
+    <link rel="stylesheet" crossorigin href="/session-tracker/assets/index-IenesHJH.css">
   </head>
   <body>
     <div id="root"></div>
