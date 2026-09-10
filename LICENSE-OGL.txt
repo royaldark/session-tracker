@@ -75,3 +75,5 @@ System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors J
 Pathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.
 
 Pathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+
+Pathfinder Roleplaying Game Advanced Player’s Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
