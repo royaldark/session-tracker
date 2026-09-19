@@ -1,0 +1,22 @@
+Icons
+
+The group icons in this app are from game-icons.net
+(https://game-icons.net) and are licensed under the Creative Commons
+Attribution 3.0 Unported licence (CC BY 3.0):
+https://creativecommons.org/licenses/by/3.0/
+
+Icons made by Lorc (http://lorcblog.blogspot.com) and
+Delapouite (https://delapouite.com).
+
+- Hourglass by Lorc — https://game-icons.net/1x1/lorc/hourglass.html
+- Sword clash by Lorc — https://game-icons.net/1x1/lorc/sword-clash.html
+- Spell book by Delapouite — https://game-icons.net/1x1/delapouite/spell-book.html
+- Embrassed energy by Lorc — https://game-icons.net/1x1/lorc/embrassed-energy.html
+- Knapsack by Lorc — https://game-icons.net/1x1/lorc/knapsack.html
+- Scroll quill by Delapouite — https://game-icons.net/1x1/delapouite/scroll-quill.html
+
+Changes: each icon has been recoloured to follow the app's light and dark
+themes (its fill is drawn in the surrounding text colour) and is shown
+without a background. The shapes are unaltered.
+
+The licensors do not endorse this app or its use of the icons.
